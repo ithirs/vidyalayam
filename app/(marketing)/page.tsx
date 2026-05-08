@@ -29,9 +29,9 @@ const whyItems = [
 ];
 
 const testimonials = [
-  { name: 'Suresh Reddy', role: 'Principal', school: 'Sri Vivekananda High School, Vijayawada', quote: 'Vidyalaya transformed our fee collection. Parents now pay online and we get instant reports. No more registers!', avatar: 'SR', stars: 5 },
+  { name: 'Suresh Reddy', role: 'Principal', school: 'Sri Vivekananda High School, Vijayawada', quote: 'Adhira transformed our fee collection. Parents now pay online and we get instant reports. No more registers!', avatar: 'SR', stars: 5 },
   { name: 'Anitha Sharma', role: 'School Administrator', school: 'Bal Vikas Convent, Hyderabad', quote: 'The attendance SMS feature alone saved us 2 hours daily. Parents love the instant notifications.', avatar: 'AS', stars: 5 },
-  { name: 'Ravi Kumar', role: 'Correspondent', school: 'Sunrise English Medium School, Nellore', quote: 'We evaluated 5 ERP systems. Vidyalaya was the only one that truly understood rural school needs.', avatar: 'RK', stars: 5 },
+  { name: 'Ravi Kumar', role: 'Correspondent', school: 'Sunrise English Medium School, Nellore', quote: 'We evaluated 5 ERP systems. Adhira was the only one that truly understood rural school needs.', avatar: 'RK', stars: 5 },
 ];
 
 const plans = [
@@ -139,17 +139,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Vidyalaya */}
+      {/* Why Adhira */}
       <section className="py-24 bg-white">
         <div className="page-container">
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <div>
-              <div className="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-xs font-semibold uppercase tracking-widest mb-4">Why Vidyalaya</div>
+              <div className="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-xs font-semibold uppercase tracking-widest mb-4">Why Adhira</div>
               <h2 className="font-heading text-3xl sm:text-4xl font-bold text-slate-900 mb-5 leading-tight">
                 Built for schools in Tier 2, 3 &amp; Rural India
               </h2>
               <p className="text-slate-500 text-lg mb-8 leading-relaxed">
-                Most ERPs are built for large corporate schools with big IT teams. Vidyalaya is designed from scratch for the 1.5 million budget schools across Bharat — affordable, regional, and radically simple.
+                Most ERPs are built for large corporate schools with big IT teams. Adhira is designed from scratch for the 1.5 million budget schools across Bharat — affordable, regional, and radically simple.
               </p>
               <Link href="/about" className="inline-flex items-center gap-2 text-orange-500 font-medium hover:text-orange-600 transition-colors">
                 Our story <ArrowRight className="w-4 h-4" />
@@ -177,7 +177,7 @@ export default function HomePage() {
         <div className="page-container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <div className="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-xs font-semibold uppercase tracking-widest mb-4">Testimonials</div>
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-slate-900 mb-4">School Principals Love Vidyalaya</h2>
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-slate-900 mb-4">School Principals Love Adhira</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {testimonials.map((t) => (
@@ -271,7 +271,7 @@ export default function HomePage() {
             Ready to Modernize Your School?
           </h2>
           <p className="text-orange-100 text-lg mb-10 max-w-xl mx-auto">
-            Join thousands of school principals who trust Vidyalaya to manage their institutions every day.
+            Join thousands of school principals who trust Adhira to manage their institutions every day.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

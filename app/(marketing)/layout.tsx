@@ -3,18 +3,18 @@ import { Navbar } from '@/components/marketing/Navbar';
 import { Footer } from '@/components/marketing/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vidyalaya.in'),
+  metadataBase: new URL('https://Adhira.in'),
   title: {
-    default: 'Vidyalaya - School Management Software India | School ERP',
-    template: '%s | Vidyalaya School ERP',
+    default: 'Adhira - School Management Software India | School ERP',
+    template: '%s | Adhira School ERP',
   },
   description:
-    "Vidyalaya is India's most affordable school management software. Manage students, attendance, fees, exams in Telugu, Hindi & English. Starting ₹499/month.",
+    "Adhira is India's most affordable school management software. Manage students, attendance, fees, exams in Telugu, Hindi & English. Starting ₹499/month.",
   keywords: [
     'school management software india',
     'school ERP',
     'school automation',
-    'vidyalaya ERP',
+    'Adhira ERP',
     'school software andhra pradesh',
     'school fee management',
     'attendance management software',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://vidyalaya.in',
-    siteName: 'Vidyalaya School ERP',
+    url: 'https://Adhira.in',
+    siteName: 'Adhira School ERP',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
   twitter: {

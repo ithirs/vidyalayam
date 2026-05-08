@@ -4,7 +4,7 @@ import { ArrowRight, Clock, Tag } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'School management tips, product updates and case studies from the Vidyalaya team.',
+  description: 'School management tips, product updates and case studies from the Adhira team.',
 };
 
 const posts = [
@@ -36,7 +36,7 @@ const posts = [
   {
     slug: 'cbse-report-card-digitally',
     title: 'How to Generate CBSE Report Cards Digitally in Under 10 Minutes',
-    excerpt: 'A walkthrough of how Vidyalaya schools generate fully compliant, printer-ready CBSE report cards for their entire school with just a few clicks.',
+    excerpt: 'A walkthrough of how Adhira schools generate fully compliant, printer-ready CBSE report cards for their entire school with just a few clicks.',
     category: 'Exams & Results',
     readTime: '4 min read',
     date: 'Oct 30, 2024',

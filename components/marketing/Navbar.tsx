@@ -7,7 +7,7 @@ import { GraduationCap, ChevronDown, Globe, ArrowRight, Menu, X, Users, Clipboar
 import { cn } from '@/lib/utils';
 
 const modules = [
-  { icon: Layers, label: 'Features Overview', desc: 'See everything Vidyalaya offers', href: '/features', highlight: true },
+  { icon: Layers, label: 'Features Overview', desc: 'See everything Adhira offers', href: '/features', highlight: true },
   { icon: Users, label: 'Student Management', desc: 'Admissions, records & tracking', href: '/modules/student-management' },
   { icon: ClipboardList, label: 'Attendance Tracking', desc: 'Daily & monthly attendance', href: '/modules/attendance' },
   { icon: IndianRupee, label: 'Fee Management', desc: 'Collections, dues & receipts', href: '/modules/fee-management' },
@@ -118,7 +118,7 @@ export function Navbar() {
                   'font-heading font-bold text-xl tracking-tight transition-colors duration-300',
                   scrolled ? 'text-slate-900' : 'text-slate-900'
                 )}>
-                  Vidyalaya
+                  Adhira
                 </span>
                 <span className="text-[10px] text-slate-400 font-sans -mt-0.5">School ERP</span>
               </div>
@@ -302,7 +302,7 @@ export function Navbar() {
                 <div className="w-8 h-8 rounded-xl bg-gradient-brand flex items-center justify-center">
                   <GraduationCap className="w-4 h-4 text-white" />
                 </div>
-                <span className="font-heading font-bold text-lg text-slate-900">Vidyalaya</span>
+                <span className="font-heading font-bold text-lg text-slate-900">Adhira</span>
               </Link>
               <button
                 onClick={() => setMobileOpen(false)}

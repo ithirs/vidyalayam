@@ -4,7 +4,7 @@ import { Users, ClipboardList, IndianRupee, BookOpen, UserCheck, Library, Messag
 
 export const metadata: Metadata = {
   title: 'All Modules',
-  description: 'Explore all 8 modules of Vidyalaya School ERP — built for Indian schools.',
+  description: 'Explore all 8 modules of Adhira School ERP — built for Indian schools.',
 };
 
 const modules = [

@@ -104,7 +104,7 @@ export default function ResetPasswordPage() {
           <GraduationCap className="w-5 h-5 text-white" />
         </div>
         <div className="flex flex-col leading-none">
-          <span className="font-bold text-slate-900 text-xl tracking-tight">Vidyalaya</span>
+          <span className="font-bold text-slate-900 text-xl tracking-tight">Adhira</span>
           <span className="text-[10px] text-slate-400 -mt-0.5">School ERP</span>
         </div>
       </Link>

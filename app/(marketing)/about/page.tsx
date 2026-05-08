@@ -4,7 +4,7 @@ import { ArrowRight, Users, BookOpen, IndianRupee, Globe, Heart, Target, Lightbu
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'The story of Vidyalaya — India\'s most affordable school ERP built for Bharat\'s 1.5 million budget schools.',
+  description: 'The story of Adhira — India\'s most affordable school ERP built for Bharat\'s 1.5 million budget schools.',
 };
 
 const values = [
@@ -18,7 +18,7 @@ const milestones = [
   { year: '2020', title: 'Founded in Hyderabad', desc: 'Started with one school in Vijayawada and the mission to democratize school software in India.' },
   { year: '2021', title: 'First 100 Schools', desc: 'Reached 100 schools across Andhra Pradesh and Telangana within 12 months of launch.' },
   { year: '2022', title: 'Hindi & Telugu Support', desc: 'Launched full multi-language support — the first school ERP in India with complete Telugu language UI.' },
-  { year: '2023', title: '1,000 Schools & Parent App', desc: 'Crossed 1,000 schools. Launched the Vidyalaya Parent App on Android with 80,000+ downloads.' },
+  { year: '2023', title: '1,000 Schools & Parent App', desc: 'Crossed 1,000 schools. Launched the Adhira Parent App on Android with 80,000+ downloads.' },
   { year: '2024', title: '2,400+ Schools Nationwide', desc: 'Now serving schools in 18 states. Expanded to Karnataka, Maharashtra, UP and Rajasthan.' },
 ];
 
@@ -49,7 +49,7 @@ export default function AboutPage() {
             Built by Teachers, <br />for Schools Across Bharat
           </h1>
           <p className="text-slate-300 text-lg leading-relaxed mb-8">
-            Vidyalaya was born from a simple frustration — India has 1.5 million schools, but affordable, easy-to-use school management software barely exists. We set out to change that.
+            Adhira was born from a simple frustration — India has 1.5 million schools, but affordable, easy-to-use school management software barely exists. We set out to change that.
           </p>
         </div>
         <div className="absolute bottom-0 left-0 right-0">
@@ -135,7 +135,7 @@ export default function AboutPage() {
         <div className="page-container">
           <div className="text-center mb-14">
             <div className="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-xs font-semibold uppercase tracking-widest mb-4">Team</div>
-            <h2 className="font-heading text-3xl font-bold text-slate-900">The People Behind Vidyalaya</h2>
+            <h2 className="font-heading text-3xl font-bold text-slate-900">The People Behind Adhira</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {team.map((member) => (
@@ -155,8 +155,8 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-orange-500 to-orange-600">
         <div className="page-container text-center">
-          <h2 className="font-heading text-3xl font-bold text-white mb-4">Join the Vidyalaya Family</h2>
-          <p className="text-orange-100 text-lg mb-8 max-w-xl mx-auto">2,400+ schools trust Vidyalaya every day. Be the next.</p>
+          <h2 className="font-heading text-3xl font-bold text-white mb-4">Join the Adhira Family</h2>
+          <p className="text-orange-100 text-lg mb-8 max-w-xl mx-auto">2,400+ schools trust Adhira every day. Be the next.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/register" className="px-8 py-3.5 rounded-xl bg-white text-orange-600 font-semibold hover:bg-orange-50 transition-all duration-200 shadow-md inline-flex items-center gap-2">
               Start Free Trial <ArrowRight className="w-4 h-4" />

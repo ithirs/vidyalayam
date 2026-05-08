@@ -4,7 +4,7 @@ import { ModulePage } from '@/components/marketing/ModulePage';
 
 export const metadata: Metadata = {
   title: 'Exams & Results',
-  description: 'Create exam timetables, enter marks, generate report cards and analyze academic performance with Vidyalaya.',
+  description: 'Create exam timetables, enter marks, generate report cards and analyze academic performance with Adhira.',
 };
 
 export default function ExamResultsPage() {

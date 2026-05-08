@@ -37,12 +37,12 @@ const features = [
 ];
 
 const demoAccounts = [
-  { role: 'Admin', icon: Shield, email: 'admin@demo.vidyalaya.in', password: 'demo@123', color: 'blue' },
-  { role: 'Teacher', icon: BookOpen, email: 'teacher@demo.vidyalaya.in', password: 'demo@123', color: 'green' },
-  { role: 'Accountant', icon: IndianRupee, email: 'accountant@demo.vidyalaya.in', password: 'demo@123', color: 'amber' },
-  { role: 'Parent', icon: Users, email: 'parent@demo.vidyalaya.in', password: 'demo@123', color: 'teal' },
-  { role: 'Receptionist', icon: LayoutDashboard, email: 'reception@demo.vidyalaya.in', password: 'demo@123', color: 'rose' },
-  { role: 'Librarian', icon: Library, email: 'librarian@demo.vidyalaya.in', password: 'demo@123', color: 'orange' },
+  { role: 'Admin', icon: Shield, email: 'admin@demo.Adhira.in', password: 'demo@123', color: 'blue' },
+  { role: 'Teacher', icon: BookOpen, email: 'teacher@demo.Adhira.in', password: 'demo@123', color: 'green' },
+  { role: 'Accountant', icon: IndianRupee, email: 'accountant@demo.Adhira.in', password: 'demo@123', color: 'amber' },
+  { role: 'Parent', icon: Users, email: 'parent@demo.Adhira.in', password: 'demo@123', color: 'teal' },
+  { role: 'Receptionist', icon: LayoutDashboard, email: 'reception@demo.Adhira.in', password: 'demo@123', color: 'rose' },
+  { role: 'Librarian', icon: Library, email: 'librarian@demo.Adhira.in', password: 'demo@123', color: 'orange' },
 ];
 
 type DemoColor = 'blue' | 'green' | 'amber' | 'teal' | 'rose' | 'orange';
@@ -142,7 +142,7 @@ export default function LoginPage() {
               <GraduationCap className="w-5 h-5 text-white" />
             </div>
             <div>
-              <span className="font-bold text-xl text-white tracking-tight">Vidyalaya</span>
+              <span className="font-bold text-xl text-white tracking-tight">Adhira</span>
               <div className="text-[10px] text-blue-300 -mt-0.5">School ERP</div>
             </div>
           </div>
@@ -202,7 +202,7 @@ export default function LoginPage() {
                 </div>
                 <div className="flex-1">
                   <p className="text-slate-700 text-sm leading-relaxed italic">
-                    "Vidyalaya transformed how we manage our 1,200-student school. Fee collection is now instant and parents get WhatsApp updates automatically."
+                    "Adhira transformed how we manage our 1,200-student school. Fee collection is now instant and parents get WhatsApp updates automatically."
                   </p>
                   <div className="mt-2.5">
                     <p className="text-slate-900 font-semibold text-sm">Sri Ramulu Goud</p>
@@ -232,7 +232,7 @@ export default function LoginPage() {
               <GraduationCap className="w-4 h-4 text-white" />
             </div>
             <div>
-              <div className="font-bold text-lg text-white tracking-tight">Vidyalaya</div>
+              <div className="font-bold text-lg text-white tracking-tight">Adhira</div>
               <div className="text-[10px] text-blue-300 -mt-0.5">School ERP</div>
             </div>
           </div>
@@ -253,7 +253,7 @@ export default function LoginPage() {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
                 <GraduationCap className="w-4 h-4 text-white" />
               </div>
-              <span className="font-bold text-slate-900 text-lg tracking-tight">Vidyalaya</span>
+              <span className="font-bold text-slate-900 text-lg tracking-tight">Adhira</span>
             </div>
             <div className="flex items-center gap-1.5 ml-auto">
               {languages.map((lang) => (

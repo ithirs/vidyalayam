@@ -7,8 +7,8 @@ import { Toaster } from 'sonner';
 import { useState } from 'react';
 
 export default function SuperAdminSettingsPage() {
-  const [platformName, setPlatformName] = useState('Vidyalaya');
-  const [supportEmail, setSupportEmail] = useState('support@vidyalaya.in');
+  const [platformName, setPlatformName] = useState('Adhira');
+  const [supportEmail, setSupportEmail] = useState('support@adhira.in');
   const [trialDays, setTrialDays] = useState('14');
   const [maintenanceMode, setMaintenanceMode] = useState(false);
 

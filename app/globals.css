@@ -9,7 +9,7 @@
 
 @layer base {
   :root {
-    /* Shadcn/UI base tokens - mapped to Vidyalaya brand */
+    /* Shadcn/UI base tokens - mapped to Adhira brand */
     --background: 210 40% 98%;
     --foreground: 215 25% 17%;
 
@@ -49,7 +49,7 @@
     --chart-4: 38 92% 50%;
     --chart-5: 0 84% 60%;
 
-    /* Vidyalaya custom tokens */
+    /* Adhira custom tokens */
     --brand-primary: #F97316;
     --brand-primary-dark: #EA580C;
     --brand-primary-light: #FED7AA;

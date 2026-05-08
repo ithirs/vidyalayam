@@ -4,7 +4,7 @@ import { ArrowLeft, Clock, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Blog Post',
-  description: 'School management insights from the Vidyalaya team.',
+  description: 'School management insights from the Adhira team.',
 };
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
@@ -65,13 +65,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               Digital transformation does not have to be overwhelming or expensive. The right school management software should feel like a natural extension of how your school already works — just faster, more accurate and with better communication to parents.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              Vidyalaya was built from this philosophy. If you would like to see how it can help your specific school, we would love to show you a live demo.
+              Adhira was built from this philosophy. If you would like to see how it can help your specific school, we would love to show you a live demo.
             </p>
           </div>
 
           {/* CTA in article */}
           <div className="mt-12 bg-orange-50 rounded-2xl border border-orange-100 p-7 text-center">
-            <h3 className="font-heading font-bold text-slate-900 text-xl mb-2">Ready to see Vidyalaya for your school?</h3>
+            <h3 className="font-heading font-bold text-slate-900 text-xl mb-2">Ready to see Adhira for your school?</h3>
             <p className="text-slate-500 text-sm mb-5">14-day free trial. No credit card. Onboarding support included.</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link href="/register" className="btn-gradient-primary inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold shadow-sm">

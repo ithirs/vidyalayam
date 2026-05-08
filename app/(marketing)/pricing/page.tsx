@@ -4,7 +4,7 @@ import { CircleCheck as CheckCircle2, X, ArrowRight, MessageCircle } from 'lucid
 
 export const metadata: Metadata = {
   title: 'Pricing',
-  description: 'Simple, affordable pricing for Indian schools. Vidyalaya starts at just ₹499/month. No hidden fees, no per-user charges.',
+  description: 'Simple, affordable pricing for Indian schools. Adhira starts at just ₹499/month. No hidden fees, no per-user charges.',
 };
 
 const plans = [

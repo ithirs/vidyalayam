@@ -4,7 +4,7 @@ import { ModulePage } from '@/components/marketing/ModulePage';
 
 export const metadata: Metadata = {
   title: 'Staff Management',
-  description: 'Manage teacher and staff profiles, attendance, payroll and leave with Vidyalaya School ERP.',
+  description: 'Manage teacher and staff profiles, attendance, payroll and leave with Adhira School ERP.',
 };
 
 export default function StaffManagementPage() {

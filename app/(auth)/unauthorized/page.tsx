@@ -69,7 +69,7 @@ export default function UnauthorizedPage() {
 
         <p className="mt-8 text-xs text-slate-400">
           Need help?{' '}
-          <a href="mailto:support@vidyalaya.in" className="text-orange-500 hover:underline font-medium">
+          <a href="mailto:support@Adhira.in" className="text-orange-500 hover:underline font-medium">
             Contact support
           </a>
         </p>

@@ -50,7 +50,7 @@ export default function ForgotPasswordPage() {
           <GraduationCap className="w-5 h-5 text-white" />
         </div>
         <div className="flex flex-col leading-none">
-          <span className="font-bold text-slate-900 text-xl tracking-tight">Vidyalaya</span>
+          <span className="font-bold text-slate-900 text-xl tracking-tight">Adhira</span>
           <span className="text-[10px] text-slate-400 -mt-0.5">School ERP</span>
         </div>
       </Link>
@@ -153,7 +153,7 @@ export default function ForgotPasswordPage() {
 
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 text-left space-y-2.5 mb-7">
               {[
-                'Open the email from Vidyalaya',
+                'Open the email from Adhira',
                 'Click the "Reset Password" link',
                 'Choose a strong new password',
                 'Sign in with your new password',

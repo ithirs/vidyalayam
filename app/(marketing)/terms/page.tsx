@@ -2,17 +2,17 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Vidyalaya Terms of Service — the agreement between your school and Vidyalaya Technologies.',
+  description: 'Adhira Terms of Service — the agreement between your school and Adhira Technologies.',
 };
 
 const sections = [
   {
     title: '1. Acceptance of Terms',
-    content: `By registering for or using the Vidyalaya platform, you agree to be bound by these Terms of Service. If you are registering on behalf of a school or institution, you represent that you have authority to bind that entity to these terms.`,
+    content: `By registering for or using the Adhira platform, you agree to be bound by these Terms of Service. If you are registering on behalf of a school or institution, you represent that you have authority to bind that entity to these terms.`,
   },
   {
     title: '2. Subscription & Payment',
-    content: `Vidyalaya is a subscription-based service. Your subscription begins on the date you register and renews monthly or annually as selected. Payment is due in advance. We accept UPI, debit/credit cards and net banking. In the event of non-payment, access may be suspended after a 7-day grace period.`,
+    content: `Adhira is a subscription-based service. Your subscription begins on the date you register and renews monthly or annually as selected. Payment is due in advance. We accept UPI, debit/credit cards and net banking. In the event of non-payment, access may be suspended after a 7-day grace period.`,
   },
   {
     title: '3. Free Trial',
@@ -20,11 +20,11 @@ const sections = [
   },
   {
     title: '4. Acceptable Use',
-    content: `You agree to use the platform only for lawful purposes related to school management. You must not misuse the platform to send unsolicited communications, upload malicious software, violate the privacy of any individual, or circumvent any security measures. Vidyalaya reserves the right to terminate accounts that violate these conditions.`,
+    content: `You agree to use the platform only for lawful purposes related to school management. You must not misuse the platform to send unsolicited communications, upload malicious software, violate the privacy of any individual, or circumvent any security measures. Adhira reserves the right to terminate accounts that violate these conditions.`,
   },
   {
     title: '5. Data Ownership',
-    content: `All data you enter into the Vidyalaya platform — student records, fee data, attendance, results — remains your property at all times. We act as a data processor on your behalf. You retain the right to export your data at any time. See our Privacy Policy for more details on data handling.`,
+    content: `All data you enter into the Adhira platform — student records, fee data, attendance, results — remains your property at all times. We act as a data processor on your behalf. You retain the right to export your data at any time. See our Privacy Policy for more details on data handling.`,
   },
   {
     title: '6. Uptime & Service Levels',
@@ -32,11 +32,11 @@ const sections = [
   },
   {
     title: '7. Intellectual Property',
-    content: `All software, design, branding and content on the Vidyalaya platform are the intellectual property of Vidyalaya Technologies Pvt. Ltd. You are granted a limited, non-transferable license to use the platform for its intended purpose. You may not copy, reverse-engineer or resell any part of the platform.`,
+    content: `All software, design, branding and content on the Adhira platform are the intellectual property of Adhira Technologies Pvt. Ltd. You are granted a limited, non-transferable license to use the platform for its intended purpose. You may not copy, reverse-engineer or resell any part of the platform.`,
   },
   {
     title: '8. Limitation of Liability',
-    content: `Vidyalaya's total liability to you for any claim arising out of or related to these terms or the platform shall not exceed the amount you paid in the 3 months prior to the event giving rise to the claim. We are not liable for indirect, incidental or consequential damages.`,
+    content: `Adhira's total liability to you for any claim arising out of or related to these terms or the platform shall not exceed the amount you paid in the 3 months prior to the event giving rise to the claim. We are not liable for indirect, incidental or consequential damages.`,
   },
   {
     title: '9. Cancellation & Termination',
@@ -52,7 +52,7 @@ const sections = [
   },
   {
     title: '12. Contact',
-    content: `For questions about these terms, contact legal@vidyalaya.in or write to Vidyalaya Technologies Pvt. Ltd., Hitech City, Hyderabad, Telangana 500081, India.`,
+    content: `For questions about these terms, contact legal@Adhira.in or write to Adhira Technologies Pvt. Ltd., Hitech City, Hyderabad, Telangana 500081, India.`,
   },
 ];
 
@@ -69,7 +69,7 @@ export default function TermsPage() {
       <section className="py-16">
         <div className="page-container max-w-3xl mx-auto">
           <p className="text-slate-600 leading-relaxed mb-10">
-            These Terms of Service ("Terms") govern your access to and use of the Vidyalaya school management platform provided by Vidyalaya Technologies Pvt. Ltd. Please read these terms carefully before using the platform.
+            These Terms of Service ("Terms") govern your access to and use of the Adhira school management platform provided by Adhira Technologies Pvt. Ltd. Please read these terms carefully before using the platform.
           </p>
           <div className="space-y-6">
             {sections.map((section) => (

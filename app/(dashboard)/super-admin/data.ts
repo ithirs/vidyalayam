@@ -30,7 +30,7 @@ export const SCHOOLS: School[] = [
   { id: '3', name: 'Sunshine Academy', city: 'Pune', state: 'Maharashtra', plan: 'starter', students: 540, staff: 38, status: 'trial', joined: '2026-04-01', email: 'info@sunshineacademy.in', phone: '+91 91234 56789', expiresAt: '2026-04-15' },
   { id: '4', name: 'St. Josephs Convent', city: 'Chennai', state: 'Tamil Nadu', plan: 'premium', students: 2100, staff: 132, status: 'active', joined: '2022-08-20', email: 'principal@stjosephs.edu.in', phone: '+91 44 2345 6789', expiresAt: '2027-08-19' },
   { id: '5', name: 'Gyan Jyoti School', city: 'Jaipur', state: 'Rajasthan', plan: 'growth', students: 870, staff: 60, status: 'expired', joined: '2023-01-15', email: 'admin@gyanjyoti.in', phone: '+91 94100 22333', expiresAt: '2026-01-14' },
-  { id: '6', name: 'Kendriya Vidyalaya No.3', city: 'Bengaluru', state: 'Karnataka', plan: 'premium', students: 2800, staff: 190, status: 'active', joined: '2022-07-01', email: 'kv3blr@kvs.gov.in', phone: '+91 80 2222 3333', expiresAt: '2027-06-30' },
+  { id: '6', name: 'Kendriya Adhira No.3', city: 'Bengaluru', state: 'Karnataka', plan: 'premium', students: 2800, staff: 190, status: 'active', joined: '2022-07-01', email: 'kv3blr@kvs.gov.in', phone: '+91 80 2222 3333', expiresAt: '2027-06-30' },
   { id: '7', name: 'Bright Future School', city: 'Kolkata', state: 'West Bengal', plan: 'starter', students: 310, staff: 22, status: 'suspended', joined: '2024-03-10', email: 'bfs@brightfuture.in', phone: '+91 33 4455 6677', expiresAt: '2025-03-09' },
   { id: '8', name: 'Navodaya English Medium', city: 'Nagpur', state: 'Maharashtra', plan: 'growth', students: 960, staff: 72, status: 'active', joined: '2023-11-05', email: 'admin@navodaya-ngp.in', phone: '+91 712 234 5678', expiresAt: '2026-11-04' },
   { id: '9', name: 'Little Stars Nursery', city: 'Surat', state: 'Gujarat', plan: 'starter', students: 180, staff: 14, status: 'trial', joined: '2026-04-05', email: 'hello@littlestars.edu.in', phone: '+91 90990 11223', expiresAt: '2026-04-19' },
@@ -62,7 +62,7 @@ export const PLAN_DATA = [
 
 export const ACTIVITY: ActivityEvent[] = [
   { id: '1', type: 'registered', school: 'Little Stars Nursery', detail: 'New school registered on Starter plan', time: '8 min ago' },
-  { id: '2', type: 'payment', school: 'Kendriya Vidyalaya No.3', detail: 'Annual Premium renewal — ₹48,000', time: '25 min ago' },
+  { id: '2', type: 'payment', school: 'Kendriya Adhira No.3', detail: 'Annual Premium renewal — ₹48,000', time: '25 min ago' },
   { id: '3', type: 'trial_started', school: 'Pioneer Public School', detail: 'Trial started — 14 days remaining', time: '1 hr ago' },
   { id: '4', type: 'plan_upgrade', school: 'Navodaya English Medium', detail: 'Upgraded: Starter → Growth', time: '3 hrs ago' },
   { id: '5', type: 'payment', school: 'Vidya Mandir Trust', detail: 'Monthly Growth plan — ₹6,999', time: '5 hrs ago' },

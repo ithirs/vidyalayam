@@ -49,7 +49,7 @@ export default function MaintenancePage() {
         </div>
 
         <h1 className="text-3xl font-extrabold text-slate-800 mb-2 tracking-tight">
-          We&apos;re updating Vidyalaya
+          We&apos;re updating Adhira
         </h1>
         <p className="text-slate-500 text-base leading-relaxed mb-2">
           Our team is working hard to bring you improvements.
@@ -89,8 +89,8 @@ export default function MaintenancePage() {
 
         <p className="mt-6 text-xs text-slate-400">
           Or email us at{' '}
-          <a href="mailto:support@vidyalaya.in" className="text-orange-500 hover:underline font-medium">
-            support@vidyalaya.in
+          <a href="mailto:support@Adhira.in" className="text-orange-500 hover:underline font-medium">
+            support@Adhira.in
           </a>
         </p>
       </div>

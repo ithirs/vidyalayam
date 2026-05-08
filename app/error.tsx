@@ -16,7 +16,7 @@ export default function GlobalError({
   return (
     <html lang="en">
       <head>
-        <title>Error | Vidyalaya</title>
+        <title>Error | Adhira</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <style>{`
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
@@ -176,7 +176,7 @@ export default function GlobalError({
             <button onClick={reset} className="btn-primary">
               &#8635; Try Again
             </button>
-            <a href="mailto:support@vidyalaya.in" className="btn-secondary">
+            <a href="mailto:support@Adhira.in" className="btn-secondary">
               Contact Support
             </a>
           </div>

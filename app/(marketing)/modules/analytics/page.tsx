@@ -4,7 +4,7 @@ import { ModulePage } from '@/components/marketing/ModulePage';
 
 export const metadata: Metadata = {
   title: 'Analytics Dashboard',
-  description: 'Real-time dashboards for fee collection, attendance, academic performance and staff metrics. Make data-driven decisions with Vidyalaya.',
+  description: 'Real-time dashboards for fee collection, attendance, academic performance and staff metrics. Make data-driven decisions with Adhira.',
 };
 
 export default function AnalyticsPage() {
@@ -13,7 +13,7 @@ export default function AnalyticsPage() {
       icon={BarChart2}
       label="Analytics Dashboard"
       tagline="All your school data in one live, visual dashboard."
-      heroDesc="Stop guessing and start knowing. Vidyalaya's analytics gives principals and management a real-time view of every key metric — fee collection, attendance, academic performance, and more — all in one screen."
+      heroDesc="Stop guessing and start knowing. Adhira's analytics gives principals and management a real-time view of every key metric — fee collection, attendance, academic performance, and more — all in one screen."
       color="text-cyan-600"
       bg="bg-cyan-100"
       accentBg="bg-cyan-50"

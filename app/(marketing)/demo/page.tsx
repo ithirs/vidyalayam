@@ -32,7 +32,7 @@ export default function DemoPage() {
             <div>
               <div className="inline-block px-3 py-1 rounded-full bg-orange-500/20 border border-orange-500/30 text-orange-300 text-xs font-semibold uppercase tracking-widest mb-6">Product Demo</div>
               <h1 className="font-heading text-4xl sm:text-5xl font-bold text-white mb-5 leading-tight">
-                See Vidyalaya in Action — Live Demo in 30 Minutes
+                See Adhira in Action — Live Demo in 30 Minutes
               </h1>
               <p className="text-slate-300 text-lg leading-relaxed mb-6">
                 Our product experts will walk you through every feature relevant to your school — live, on a video call, in your preferred language.
@@ -103,7 +103,7 @@ export default function DemoPage() {
         <div className="page-container max-w-3xl mx-auto text-center">
           <div className="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-xs font-semibold uppercase tracking-widest mb-4">Watch Now</div>
           <h2 className="font-heading text-3xl font-bold text-slate-900 mb-4">5-Minute Product Walkthrough</h2>
-          <p className="text-slate-500 mb-8">Get a quick overview of what Vidyalaya can do for your school in under 5 minutes.</p>
+          <p className="text-slate-500 mb-8">Get a quick overview of what Adhira can do for your school in under 5 minutes.</p>
           <div className="relative aspect-video bg-slate-900 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center cursor-pointer group">
             <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-slate-900/60" />
             <div className="relative z-10 w-20 h-20 rounded-full bg-white/20 backdrop-blur-sm border-2 border-white/40 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">

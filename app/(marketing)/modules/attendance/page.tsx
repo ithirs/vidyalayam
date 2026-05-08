@@ -4,7 +4,7 @@ import { ModulePage } from '@/components/marketing/ModulePage';
 
 export const metadata: Metadata = {
   title: 'Attendance Tracking',
-  description: 'Daily and subject-wise attendance with instant parent SMS/WhatsApp alerts. Vidyalaya makes attendance simple.',
+  description: 'Daily and subject-wise attendance with instant parent SMS/WhatsApp alerts. Adhira makes attendance simple.',
 };
 
 export default function AttendancePage() {

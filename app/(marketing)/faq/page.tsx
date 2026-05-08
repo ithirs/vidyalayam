@@ -8,10 +8,10 @@ const categories = [
   {
     label: 'General',
     faqs: [
-      { q: 'What is Vidyalaya?', a: 'Vidyalaya is a cloud-based school management ERP built for Indian schools. It helps manage students, fees, attendance, exams, staff and parent communication from one platform.' },
-      { q: 'Who is Vidyalaya for?', a: 'Vidyalaya is built for CBSE, ICSE, state board and international schools across India — from small primary schools with 100 students to large institutions with 5,000+.' },
+      { q: 'What is Adhira?', a: 'Adhira is a cloud-based school management ERP built for Indian schools. It helps manage students, fees, attendance, exams, staff and parent communication from one platform.' },
+      { q: 'Who is Adhira for?', a: 'Adhira is built for CBSE, ICSE, state board and international schools across India — from small primary schools with 100 students to large institutions with 5,000+.' },
       { q: 'Is there a mobile app?', a: 'Yes! There is a parent-facing Android app and a teacher-facing mobile-optimized web interface. A dedicated iOS app is coming in 2025.' },
-      { q: 'How many languages does Vidyalaya support?', a: 'Currently English, Hindi and Telugu are fully supported. Kannada, Tamil and Marathi are in development.' },
+      { q: 'How many languages does Adhira support?', a: 'Currently English, Hindi and Telugu are fully supported. Kannada, Tamil and Marathi are in development.' },
     ],
   },
   {
@@ -27,8 +27,8 @@ const categories = [
   {
     label: 'Features',
     faqs: [
-      { q: 'Does Vidyalaya support online fee payment?', a: 'Yes. Parents can pay fees via UPI, debit card, credit card and net banking. Payments are powered by Razorpay and reconciled automatically.' },
-      { q: 'Can I generate report cards?', a: 'Yes. Vidyalaya generates fully branded, print-ready report cards in PDF with your school logo, principal signature area and grade analysis.' },
+      { q: 'Does Adhira support online fee payment?', a: 'Yes. Parents can pay fees via UPI, debit card, credit card and net banking. Payments are powered by Razorpay and reconciled automatically.' },
+      { q: 'Can I generate report cards?', a: 'Yes. Adhira generates fully branded, print-ready report cards in PDF with your school logo, principal signature area and grade analysis.' },
       { q: 'Does it support WhatsApp notifications to parents?', a: 'Yes. Attendance alerts, fee receipts, report cards and school circulars are sent automatically to parents on WhatsApp.' },
       { q: 'Can teachers mark attendance on their phones?', a: 'Yes. Teachers access a mobile-optimized interface and can mark attendance for their entire class in under a minute.' },
       { q: 'Is there a library management module?', a: 'Yes. The library module is available on the Growth and Pro plans and supports book catalogue, issue/return tracking, barcode and overdue reminders.' },
@@ -38,7 +38,7 @@ const categories = [
     label: 'Security & Data',
     faqs: [
       { q: 'Is my school data safe?', a: 'All data is encrypted in transit (TLS 1.3) and at rest (AES-256). We maintain daily automated backups with 30-day retention.' },
-      { q: 'Is Vidyalaya DPDP compliant?', a: 'Yes. We are compliant with India\'s Digital Personal Data Protection Act. We never sell or share your data with third parties.' },
+      { q: 'Is Adhira DPDP compliant?', a: 'Yes. We are compliant with India\'s Digital Personal Data Protection Act. We never sell or share your data with third parties.' },
       { q: 'Can I export my data if I leave?', a: 'Absolutely. You can export all your data in standard CSV and PDF formats at any time — no lock-in.' },
       { q: 'What is your uptime SLA?', a: 'We guarantee 99.9% uptime. Our infrastructure runs on AWS Mumbai region with multi-AZ redundancy.' },
     ],

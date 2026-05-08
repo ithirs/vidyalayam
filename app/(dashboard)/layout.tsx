@@ -10,7 +10,7 @@ import { getStoredUser, type DemoUser } from '@/lib/auth/demo-users';
 const FALLBACK_USER: DemoUser = {
   role: 'admin' as Role,
   userName: 'Dilshad Babji',
-  userEmail: 'admin@demo.vidyalaya.in',
+  userEmail: 'admin@demo.Adhira.in',
   schoolName: 'Sri Sai High School',
   password: '',
   dashboardPath: '/admin',

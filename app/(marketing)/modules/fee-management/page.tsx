@@ -4,7 +4,7 @@ import { ModulePage } from '@/components/marketing/ModulePage';
 
 export const metadata: Metadata = {
   title: 'Fee Management',
-  description: 'Online fee collection, due tracking, instant receipts and automated reminders. Vidyalaya makes school fee management effortless.',
+  description: 'Online fee collection, due tracking, instant receipts and automated reminders. Adhira makes school fee management effortless.',
 };
 
 export default function FeeManagementPage() {
@@ -13,7 +13,7 @@ export default function FeeManagementPage() {
       icon={IndianRupee}
       label="Fee Management"
       tagline="Collect fees online. Track dues automatically. Zero paperwork."
-      heroDesc="Vidyalaya's fee management module lets parents pay via UPI, cards or net banking from their phone. You see collections in real time, receipts are generated instantly and due reminders go out automatically."
+      heroDesc="Adhira's fee management module lets parents pay via UPI, cards or net banking from their phone. You see collections in real time, receipts are generated instantly and due reminders go out automatically."
       color="text-orange-600"
       bg="bg-orange-100"
       accentBg="bg-orange-50"

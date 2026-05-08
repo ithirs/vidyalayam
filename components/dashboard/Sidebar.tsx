@@ -205,7 +205,7 @@ function SidebarContent({
             </div>
             <div className="min-w-0 flex-1">
               <div className="font-bold text-white text-sm truncate font-heading">{schoolName}</div>
-              <div className="text-[10px] text-slate-500 mt-0.5">Vidyalaya ERP</div>
+              <div className="text-[10px] text-slate-500 mt-0.5">Adhira ERP</div>
             </div>
             <button className="shrink-0 text-slate-500 hover:text-slate-300 transition-colors p-1 rounded-lg hover:bg-slate-800">
               <Building2 className="w-4 h-4" />

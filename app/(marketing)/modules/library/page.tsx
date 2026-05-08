@@ -4,7 +4,7 @@ import { ModulePage } from '@/components/marketing/ModulePage';
 
 export const metadata: Metadata = {
   title: 'Library System',
-  description: 'Digitize your school library with Vidyalaya — book catalogue, issue & return tracking, overdue reminders and more.',
+  description: 'Digitize your school library with Adhira — book catalogue, issue & return tracking, overdue reminders and more.',
 };
 
 export default function LibraryPage() {
@@ -13,7 +13,7 @@ export default function LibraryPage() {
       icon={Library}
       label="Library System"
       tagline="Your school library, fully digitized and zero-effort to manage."
-      heroDesc="Stop maintaining manual registers for library books. Vidyalaya lets you catalogue your entire collection, issue books to students and staff in seconds, track returns and send automated overdue reminders."
+      heroDesc="Stop maintaining manual registers for library books. Adhira lets you catalogue your entire collection, issue books to students and staff in seconds, track returns and send automated overdue reminders."
       color="text-violet-600"
       bg="bg-violet-100"
       accentBg="bg-violet-50"

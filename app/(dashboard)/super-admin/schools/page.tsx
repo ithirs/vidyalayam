@@ -17,7 +17,7 @@ export default function SuperAdminSchoolsPage() {
         </nav>
         <div>
           <h1 className="text-2xl font-bold text-slate-900 font-heading">Schools</h1>
-          <p className="text-sm text-slate-500 mt-0.5">Manage all registered schools on Vidyalaya</p>
+          <p className="text-sm text-slate-500 mt-0.5">Manage all registered schools on Adhira</p>
         </div>
         <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
           <SchoolsTable />

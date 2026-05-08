@@ -4,7 +4,7 @@
   ## Summary
   Stores multi-step school onboarding registration data submitted through
   the "Start Free Trial" flow. Each row represents one school attempting to
-  register on the Vidyalaya platform.
+  register on the Adhira platform.
 
   ## New Tables
 

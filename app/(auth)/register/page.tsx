@@ -116,7 +116,7 @@ export default function RegisterPage() {
               <GraduationCap className="w-4 h-4 text-white" />
             </div>
             <div className="flex flex-col leading-none">
-              <span className="font-bold text-slate-900 text-lg tracking-tight">Vidyalaya</span>
+              <span className="font-bold text-slate-900 text-lg tracking-tight">Adhira</span>
               <span className="text-[10px] text-slate-400 -mt-0.5">School ERP</span>
             </div>
           </Link>
@@ -282,7 +282,7 @@ export default function RegisterPage() {
         {/* Footer note */}
         {currentStep < 4 && (
           <p className="text-center text-xs text-slate-400 mt-6">
-            By registering, you agree to Vidyalaya's{' '}
+            By registering, you agree to Adhira's{' '}
             <Link href="/terms" className="text-orange-500 hover:text-orange-600 transition-colors">
               Terms of Service
             </Link>{' '}

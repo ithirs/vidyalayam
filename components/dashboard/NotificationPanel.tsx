@@ -23,7 +23,7 @@ const SAMPLE_NOTIFICATIONS: Notification[] = [
   { id: '5', type: 'fees', title: 'Fee due reminder sent', description: '34 parents notified via WhatsApp', time: '5 hrs ago', read: true },
   { id: '6', type: 'attendance', title: 'Attendance report ready', description: 'Monthly report for March 2026', time: 'Yesterday', read: true },
   { id: '7', type: 'exams', title: 'Marks entry deadline', description: 'Class 10 marks due in 2 days', time: 'Yesterday', read: true },
-  { id: '8', type: 'system', title: 'New version available', description: 'Vidyalaya v2.4.1 — bug fixes', time: '2 days ago', read: true },
+  { id: '8', type: 'system', title: 'New version available', description: 'Adhira v2.4.1 — bug fixes', time: '2 days ago', read: true },
 ];
 
 const TAB_CONFIG: { key: NotifTab; label: string }[] = [

@@ -4,7 +4,7 @@ import { Users, ClipboardList, IndianRupee, BookOpen, UserCheck, Library, Messag
 
 export const metadata: Metadata = {
   title: 'Features Overview',
-  description: 'Explore all 8 powerful modules of Vidyalaya School ERP — Student Management, Fees, Attendance, Exams, Staff, Library, Communication & Analytics.',
+  description: 'Explore all 8 powerful modules of Adhira School ERP — Student Management, Fees, Attendance, Exams, Staff, Library, Communication & Analytics.',
 };
 
 const modules = [

@@ -4,7 +4,7 @@ import { ModulePage } from '@/components/marketing/ModulePage';
 
 export const metadata: Metadata = {
   title: 'Student Management',
-  description: 'Manage the complete student lifecycle — admissions, profiles, class assignments, TC issuance and more with Vidyalaya.',
+  description: 'Manage the complete student lifecycle — admissions, profiles, class assignments, TC issuance and more with Adhira.',
 };
 
 export default function StudentManagementPage() {
@@ -13,7 +13,7 @@ export default function StudentManagementPage() {
       icon={Users}
       label="Student Management"
       tagline="Complete student lifecycle management — from inquiry to alumni."
-      heroDesc="Vidyalaya's student management module handles everything from online admissions to graduation. Maintain complete records, manage promotions, and issue transfer certificates in seconds."
+      heroDesc="Adhira's student management module handles everything from online admissions to graduation. Maintain complete records, manage promotions, and issue transfer certificates in seconds."
       color="text-blue-600"
       bg="bg-blue-100"
       accentBg="bg-blue-50"

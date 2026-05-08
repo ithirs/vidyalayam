@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Vidyalaya Privacy Policy — how we collect, use and protect your data.',
+  description: 'Adhira Privacy Policy — how we collect, use and protect your data.',
 };
 
 const sections = [
@@ -12,7 +12,7 @@ const sections = [
   },
   {
     title: '2. How We Use Your Information',
-    content: `We use your information solely to provide and improve the Vidyalaya school management platform. This includes sending transactional notifications (attendance alerts, fee receipts, exam results) as configured by the school. We do not use student or parent data for marketing purposes.`,
+    content: `We use your information solely to provide and improve the Adhira school management platform. This includes sending transactional notifications (attendance alerts, fee receipts, exam results) as configured by the school. We do not use student or parent data for marketing purposes.`,
   },
   {
     title: '3. Data Storage & Security',
@@ -24,7 +24,7 @@ const sections = [
   },
   {
     title: '5. DPDP Compliance',
-    content: `Vidyalaya is compliant with India's Digital Personal Data Protection Act, 2023 (DPDP Act). We process personal data only with consent and for specified purposes. School administrators acting as data fiduciaries are responsible for obtaining appropriate consents from parents and staff.`,
+    content: `Adhira is compliant with India's Digital Personal Data Protection Act, 2023 (DPDP Act). We process personal data only with consent and for specified purposes. School administrators acting as data fiduciaries are responsible for obtaining appropriate consents from parents and staff.`,
   },
   {
     title: '6. Data Retention',
@@ -32,7 +32,7 @@ const sections = [
   },
   {
     title: '7. Your Rights',
-    content: `You have the right to access, correct or delete personal data held about your school or its members. You may exercise these rights by contacting us at privacy@vidyalaya.in. We will respond within 30 days.`,
+    content: `You have the right to access, correct or delete personal data held about your school or its members. You may exercise these rights by contacting us at privacy@Adhira.in. We will respond within 30 days.`,
   },
   {
     title: '8. Cookies',
@@ -44,7 +44,7 @@ const sections = [
   },
   {
     title: '10. Contact',
-    content: `For privacy-related queries, write to privacy@vidyalaya.in or contact us at our registered office: Vidyalaya Technologies Pvt. Ltd., Hitech City, Hyderabad, Telangana 500081, India.`,
+    content: `For privacy-related queries, write to privacy@Adhira.in or contact us at our registered office: Adhira Technologies Pvt. Ltd., Hitech City, Hyderabad, Telangana 500081, India.`,
   },
 ];
 
@@ -61,7 +61,7 @@ export default function PrivacyPolicyPage() {
       <section className="py-16">
         <div className="page-container max-w-3xl mx-auto">
           <p className="text-slate-600 leading-relaxed mb-10">
-            Vidyalaya Technologies Pvt. Ltd. ("Vidyalaya", "we", "us", "our") operates the Vidyalaya School ERP platform. This Privacy Policy explains how we collect, use, share and protect the personal data of schools, students, staff and parents who use our platform.
+            Adhira Technologies Pvt. Ltd. ("Adhira", "we", "us", "our") operates the Adhira School ERP platform. This Privacy Policy explains how we collect, use, share and protect the personal data of schools, students, staff and parents who use our platform.
           </p>
           <div className="space-y-8">
             {sections.map((section) => (

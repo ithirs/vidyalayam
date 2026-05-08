@@ -5,8 +5,8 @@ import { Toaster } from '@/components/ui/sonner';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Vidyalaya - School Automation SaaS',
-    template: '%s | Vidyalaya',
+    default: 'Adhira - School Automation SaaS',
+    template: '%s | Adhira',
   },
   description:
     "Andhra's first mobile-first school ERP in Telugu, Hindi & English. Automate admissions, attendance, fees, exams, and parent communication — built for ease, speed, and affordability.",
@@ -20,19 +20,19 @@ export const metadata: Metadata = {
     'Andhra Pradesh school software',
     'Telugu school ERP',
   ],
-  authors: [{ name: 'Vidyalaya' }],
-  creator: 'Vidyalaya',
+  authors: [{ name: 'Adhira' }],
+  creator: 'Adhira',
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    title: 'Vidyalaya - School Automation SaaS',
+    title: 'Adhira - School Automation SaaS',
     description:
       "India's most affordable school ERP — mobile-first, multi-lingual, zero IT staff needed.",
-    siteName: 'Vidyalaya',
+    siteName: 'Adhira',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vidyalaya - School Automation SaaS',
+    title: 'Adhira - School Automation SaaS',
     description:
       "India's most affordable school ERP — mobile-first, multi-lingual, zero IT staff needed.",
   },

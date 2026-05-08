@@ -57,7 +57,7 @@ const config: Config = {
           '5': 'hsl(var(--chart-5))',
         },
 
-        /* Vidyalaya brand palette */
+        /* Adhira brand palette */
         brand: {
           DEFAULT: '#F97316',
           dark: '#EA580C',

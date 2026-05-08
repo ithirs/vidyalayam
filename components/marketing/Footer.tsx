@@ -123,7 +123,7 @@ export function Footer() {
                 <GraduationCap className="w-5 h-5 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-white text-xl">Vidyalaya</span>
+                <span className="font-heading font-bold text-white text-xl">Adhira</span>
                 <p className="text-[10px] text-slate-500 -mt-0.5">School ERP</p>
               </div>
             </Link>
@@ -249,7 +249,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="mailto:support@vidyalaya.in"
+                    href="mailto:support@Adhira.in"
                     className="flex items-center gap-2.5 text-sm text-slate-400 hover:text-orange-400 transition-colors duration-200 group"
                   >
                     <div className="w-7 h-7 rounded-lg bg-orange-500/10 flex items-center justify-center group-hover:bg-orange-500/20 transition-colors duration-200">
@@ -257,7 +257,7 @@ export function Footer() {
                     </div>
                     <div>
                       <p className="text-xs text-slate-500">Email</p>
-                      <p className="font-medium">support@vidyalaya.in</p>
+                      <p className="font-medium">support@Adhira.in</p>
                     </div>
                   </a>
                 </li>
@@ -317,7 +317,7 @@ export function Footer() {
       <div className="border-t border-white/5">
         <div className="page-container py-5">
           <div className="flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-slate-500">
-            <p>© 2025 Vidyalaya ERP. All rights reserved.</p>
+            <p>© 2025 Adhira ERP. All rights reserved.</p>
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
               {legalLinks.map((link, i) => (
                 <span key={`${link.href}-${i}`} className="flex items-center gap-4">
