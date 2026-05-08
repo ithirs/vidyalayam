@@ -18,50 +18,50 @@ export const DEMO_USERS: Record<string, DemoUser> = {
     password: 'demo@123',
     dashboardPath: '/super-admin',
   },
-  'admin@demo.Adhira.in': {
+  'admin@demo.adhira.in': {
     role: 'admin',
     userName: 'Sri Ramulu Goud',
-    userEmail: 'admin@demo.Adhira.in',
+    userEmail: 'admin@demo.adhira.in',
     schoolName: 'Sri Sai High School',
     password: 'demo@123',
     dashboardPath: '/admin',
   },
-  'teacher@demo.Adhira.in': {
+  'teacher@demo.adhira.in': {
     role: 'teacher',
     userName: 'Priya Sharma',
-    userEmail: 'teacher@demo.Adhira.in',
+    userEmail: 'teacher@demo.adhira.in',
     schoolName: 'Sri Sai High School',
     password: 'demo@123',
     dashboardPath: '/teacher',
   },
-  'accountant@demo.Adhira.in': {
+  'accountant@demo.adhira.in': {
     role: 'accountant',
     userName: 'Ravi Kiran',
-    userEmail: 'accountant@demo.Adhira.in',
+    userEmail: 'accountant@demo.adhira.in',
     schoolName: 'Sri Sai High School',
     password: 'demo@123',
     dashboardPath: '/accountant',
   },
-  'parent@demo.Adhira.in': {
+  'parent@demo.adhira.in': {
     role: 'parent',
     userName: 'Suresh Babu',
-    userEmail: 'parent@demo.Adhira.in',
+    userEmail: 'parent@demo.adhira.in',
     schoolName: 'Sri Sai High School',
     password: 'demo@123',
     dashboardPath: '/parent',
   },
-  'reception@demo.Adhira.in': {
+  'reception@demo.adhira.in': {
     role: 'receptionist',
     userName: 'Anitha Reddy',
-    userEmail: 'reception@demo.Adhira.in',
+    userEmail: 'reception@demo.adhira.in',
     schoolName: 'Sri Sai High School',
     password: 'demo@123',
     dashboardPath: '/receptionist',
   },
-  'librarian@demo.Adhira.in': {
+  'librarian@demo.adhira.in': {
     role: 'librarian',
     userName: 'Venkat Rao',
-    userEmail: 'librarian@demo.Adhira.in',
+    userEmail: 'librarian@demo.adhira.in',
     schoolName: 'Sri Sai High School',
     password: 'demo@123',
     dashboardPath: '/librarian',
